@@ -4,22 +4,35 @@ sidebar_position: 4
 
 # Keysha Zascha Medina
 
-![Locale Dropdown1](./img/keysha/localeDropdown.png)
+![Web Keysha](./img/keysha/web_keysha.png)
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
+Gambar di atas adalah **website portofolio** yang aku kembangkan.
 
-Docusaurus has **much more to offer**!
+Website tersebut tampilannya cukup sederhana, di bagian atas terdapat _navigation menu_. 
 
-Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.
+Kemudian, di bawahnya terdapat bagian _contents_.
 
-Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
+Mau tau bagaimana website tersebut dibuat? Yuk, simak lebih lanjut!
 
-## What's next?
+## How I Build My Portfolio Website?
 
-- Read the [official documentation](https://docusaurus.io/)
-- Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)
-- Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)
-- Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)
-- Add a [search bar](https://docusaurus.io/docs/search)
-- Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)
-- Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)
+### Prepare The Tools
+
+- Text editor
+- Browser
+
+_Yeah, That's it_. Website tersebut hanya menggunakan HTML dan CSS. Jadi, text editor (seperti VS Code) dan Browser saja sudah cukup untuk mengembangkan web portofolio ini.
+
+### Build The Website
+
+- Pertama, buat folder di komputer, lalu buka folder tersebut menggunakan text editor.
+- Tambahkan file HTML.
+- Buat struktur file HTML yang terdiri dari tag _html_, _head_, dan _body_.
+- Di bagian body, buat wrapper dengan CSS display flex.
+- Buat 2 wrapper lagi dengan class "left" dan "right" untuk tampilan bagian kiri dan kanan website.
+- Pada bagian "left", buat _navigation menu_ kemudian berikan CSS flex agar menu berjejer ke samping. Notes: _Tiap menu diapit dengan tag anchor (tag a)_
+- Masih di bagian left, tambahkan konten yang berisi pengenalan diri secara umum.
+- Pada bagian "right" tambahkan gambar.
+- Kemudian, buat file baru untuk setiap menu pada navigation dan isi file-file tersebut sesuai keinginan.
+- Sematkan alamat dari file pada menu di navigation.
+- Selesai! Website Portofolio berhasil dibuat!

@@ -28,7 +28,7 @@ function HomepageHeader() {
           <div className="w-full text-center">
             <img className=" mb-10 object-cover object-center rounded" alt="hero" src={banner} />
             <h1 className="text-4xl font-bold tracking-tight text-[#D40080] sm:text-6xl">Internal Networking : Front-End Team</h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600">Ini adalah persembahan dari tim Front-end untuk GDSC Unsri, disini kami akan menunjukkan progress kami. Jadi jangan lari ya!</p>
+            <p className="mt-6 text-lg leading-8 text-gray-600">Ini adalah persembahan dari tim Front-end GDSC Unsri, disini kami akan menunjukkan progress kami. Jadi jangan lari ya!</p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a href="#" className="rounded-md bg-[#D40080] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Pencapaian Kami !</a>
               <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Lebih banyak <span aria-hidden="true">→</span></a>
@@ -231,6 +231,169 @@ function RoadToFE() {
   );
 }
 
+function SynteticDev() {
+  return (
+    <section class="bg-white lg:mb-8">
+      <div class="container px-6 py-10 mx-auto">
+        <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl ">Synthetic Developer <br /> Front-End x UI/UX <span class="text-blue-500">Team Up Event</span></h1>
+
+        {/* <iframe  src="https://www.youtube.com/watch?v=_XkIupzNAyI" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe> */}
+        <iframe class="min-w-full mt-12 h-64 md:h-[450px] rounded-xl overflow-hidden" src="https://www.youtube.com/embed/_XkIupzNAyI" title="2023/02/11 - WebDev Series : Synthetic WebDev Day 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2">
+          <div class="p-6 border rounded-xl border-r-gray-200 dark:border-gray-700">
+            <div class="md:flex md:items-start md:-mx-4">
+              <span class="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+                </svg>
+              </span>
+
+              <div class="mt-4 md:mx-4 md:mt-0">
+                <h1 class="text-xl font-medium text-gray-700 capitalize ">Cara melakukan Slicing Pada Website</h1>
+
+                <p class="mt-3 text-gray-500">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-6 border rounded-xl border-r-gray-200 dark:border-gray-700">
+            <div class="md:flex md:items-start md:-mx-4">
+              <span class="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                </svg>
+              </span>
+
+              <div class="mt-4 md:mx-4 md:mt-0">
+                <h1 class="text-xl font-medium text-gray-700 capitalize ">Membuat Design Bersama Kevin</h1>
+
+                <p class="mt-3 text-gray-500">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-6 border rounded-xl border-r-gray-200 dark:border-gray-700">
+            <div class="md:flex md:items-start md:-mx-4">
+              <span class="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
+                </svg>
+              </span>
+
+              <div class="mt-4 md:mx-4 md:mt-0">
+                <h1 class="text-xl font-medium text-gray-700 capitalize ">Mengenal Lebih Dekat Tentang Astro Js</h1>
+
+                <p class="mt-3 text-gray-500">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-6 border rounded-xl border-r-gray-200 dark:border-gray-700">
+            <div class="md:flex md:items-start md:-mx-4">
+              <span class="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                </svg>
+              </span>
+
+              <div class="mt-4 md:mx-4 md:mt-0">
+                <h1 class="text-xl font-medium text-gray-700 capitalize ">Melihat Redesign Dari Page Github</h1>
+
+                <p class="mt-3 text-gray-500">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function ReactDeepDive() {
+  return (
+    <section id="blog" className="bg-white px-4 xl:px-0 py-12">
+      <div className="mx-auto container">
+        <h1 className="text-center font-semibold capitalize text-3xl lg:text-4xl text-gray-800">React Deep Dive</h1>
+        <div className="mt-12 lg:mt-24">
+          <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-8">
+            <div>
+              <img className="w-full" src="https://cdn.tuk.dev/assets/components/111220/Blg-6/blog(1).png" alt="computer" />
+              <div className="py-4 px-8 w-full flex justify-between bg-indigo-700">
+                <p className="text-sm text-white font-semibold tracking-wide">Front-End Team</p>
+                <p className="text-sm text-white font-semibold tracking-wide">2023</p>
+              </div>
+              <div className="bg-white px-10 py-6 rounded-bl-3xl rounded-br-3xl">
+                <h1 className="text-4xl text-gray-900 font-semibold tracking-wider">Intro To React Js</h1>
+                <p className="text-gray-700 text-base lg:text-lg  lg:leading-8 tracking-wide mt-6 w-11/12">Kami berkenalan dengan sebuah library terkenal di dunia Javascript bernama React. Disini kami melihat lebih dekat tentang cara kerja website yang dibuat menggunakan react. Serta belajar bagaimana cara menginstall dan menggunakan website yang dibangun memakai library ini.</p>
+                <div className="h-5 w-2" />
+              </div>
+            </div>
+            <div>
+              <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8">
+                <div>
+                  <img className="w-full" src="https://cdn.tuk.dev/assets/components/111220/Blg-6/blog(2).png" alt="games" />
+                  <div className="py-2 px-4 w-full flex justify-between bg-indigo-700">
+                    <p className="text-sm text-white font-semibold tracking-wide">Front-End Team</p>
+                    <p className="text-sm text-white font-semibold tracking-wide">2023</p>
+                  </div>
+                  <div className="bg-white px-3  lg:px-6 py-4 rounded-bl-3xl rounded-br-3xl">
+                    <h1 className="text-lg text-gray-900 font-semibold tracking-wider">Learn About Components</h1>
+                    <p className="text-gray-700 text-sm  lg:text-base  lg:leading-8 pr-4 tracking-wide mt-2">Sebuah bagian-bagian kecil yang jika dibangun akan menghasilkan sebuah website utuh merupakan cara website dibangun dalam react js...</p>
+                  </div>
+                </div>
+                <div>
+                  <img className="w-full" src="https://cdn.tuk.dev/assets/components/111220/Blg-6/blog(3).png" alt="notes" />
+                  <div className="py-2 px-4 w-full flex justify-between bg-indigo-700">
+                    <p className="text-sm text-white font-semibold tracking-wide">Front-End Team</p>
+                    <p className="text-sm text-white font-semibold tracking-wide">2023</p>
+                  </div>
+                  <div className="bg-white px-3  lg:px-6 py-4 rounded-bl-3xl rounded-br-3xl">
+                    <h1 className="text-lg text-gray-900 font-semibold tracking-wider">Learn About useState</h1>
+                    <p className="text-gray-700 text-sm  lg:text-base  lg:leading-8 pr-4 tracking-wide mt-2">Salah satu tools kuat yang dimiliki react. Dapat digunakan untuk animasi, mengontrol alur website dan lain sebagainya...</p>
+                  </div>
+                </div>
+              </div>
+              <div className="mt-10 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8">
+                <div>
+                  <img className="w-full" src="https://cdn.tuk.dev/assets/components/111220/Blg-6/blog(4).png" alt="laptop" />
+                  <div className="py-2 px-4 w-full flex justify-between bg-indigo-700">
+                    <p className="text-sm text-white font-semibold tracking-wide">Front-End Team</p>
+                    <p className="text-sm text-white font-semibold tracking-wide">2023</p>
+                  </div>
+                  <div className="bg-white px-3  lg:px-6 py-4 rounded-bl-3xl rounded-br-3xl">
+                    <h1 className="text-lg text-gray-900 font-semibold tracking-wider">Learn About useEffect</h1>
+                    <p className="text-gray-700 text-sm  lg:text-base  lg:leading-8 pr-4 tracking-wide mt-2">Sering digunakan ketika berkomunikasi dengan API (Application Programming Interface), namun tidak jarang juga dipakai untuk menangani logic pada sisi front-end...</p>
+                  </div>
+                </div>
+                {/* <div>
+                  <img className="w-full" src="https://cdn.tuk.dev/assets/components/111220/Blg-6/blog(5).png" alt="worker" />
+                  <div className="py-2 px-4 w-full flex justify-between bg-indigo-700">
+                    <p className="text-sm text-white font-semibold tracking-wide">Bruce Wayne</p>
+                    <p className="text-sm text-white font-semibold tracking-wide">13TH Oct, 2020</p>
+                  </div>
+                  <div className="bg-white px-3  lg:px-6 py-4 rounded-bl-3xl rounded-br-3xl">
+                    <h1 className="text-lg text-gray-900 font-semibold tracking-wider">Transactions</h1>
+                    <p className="text-gray-700 text-sm  lg:text-base  lg:leading-8 pr-4 tracking-wide mt-2">Find the latest events updates or create events, concerts, conferences, workshops...</p>
+                  </div>
+                </div> */}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
@@ -241,6 +404,8 @@ export default function Home() {
       <main>
         <ProgressOne />
         <RoadToFE />
+        <SynteticDev />
+        <ReactDeepDive />
       </main>
     </Layout>
   );

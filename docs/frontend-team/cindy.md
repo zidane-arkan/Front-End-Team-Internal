@@ -5,18 +5,24 @@ sidebar_position: 2
 # Cindy Putri Az-Zahra
 ## 
 
-![Locale Dropdown1](./img/cindy/localeDropdown.png)
+![Web Cindy](./img/cindy/web_cindy.png)
 
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
+Website **Portfolio** dan dibuat untuk **Tugas Clean Code**.
 
-Docusaurus has **much more to offer**!
+Pengerjaan pada **HTML**!
 
-Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.
+```html
+        <section class="home-section" data-sr-id="1" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all 0.2s linear 0s, opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s;">
+            <div class="home_content">
+                <h3 class="home_title">Hi, aku <span class="home_title-color">Cindy</span></h3>
+                <p>Saya Cindy Putri Az Zahra, atau dikenal dengan panggilan Cindy. Seorang mahasiswi pada jurusan Sistem Informasi angkatan 2021 di Universitas Sriwijaya. Disamping itu, saya memiliki ketertarikan pada bidang illustrasi yang saya tekuni di luar sekolah formal.</p>
+                <a href="#doing-section" class="btn">Lihat Selengkapnya</a>
+            </div>
+        </section>
+```
 
-Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
-
-## What's next?
+## Apa Selanjutnya?
 
 - Read the [official documentation](https://docusaurus.io/)
 - Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)
