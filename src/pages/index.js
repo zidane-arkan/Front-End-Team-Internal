@@ -5,7 +5,7 @@ import custom from '../css/custom.css';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import banner from '../assets/banner1.png';
+import banner from '../assets/bannerpernak.png';
 import styles from './index.module.css';
 import person1 from '../assets/person1.png';
 import person2 from '../assets/person2.png';
@@ -26,7 +26,7 @@ function HomepageHeader() {
         </div>
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:pb-16 lg:pt-0">
           <div className="w-full text-center">
-            <img className=" mb-10 object-cover object-center rounded" alt="hero" src={banner} />
+            <img className=" mt-8 mb-8 object-cover object-center rounded" alt="hero" src={banner} />
             <h1 className="text-4xl font-bold tracking-tight text-[#D40080] sm:text-6xl">Internal Networking : Front-End Team</h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">Ini adalah persembahan dari tim Front-end GDSC Unsri, disini kami akan menunjukkan progress kami. Jadi jangan lari ya!</p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
@@ -206,7 +206,7 @@ function RoadToFE() {
               <ul role="list" className=" space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
                   <span>
-                    <strong className="font-semibold text-gray-900">System Flow</strong>Menggunakan Git dan Github kami belajar cara berkolaborasi dan mengerjakan projek bersama.
+                    <strong className="font-semibold text-gray-900">System Flow.</strong> Menggunakan Git dan Github kami belajar cara berkolaborasi dan mengerjakan projek bersama.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
@@ -216,7 +216,7 @@ function RoadToFE() {
                 </li>
                 <li className="flex gap-x-3">
                   <span>
-                    <strong className="font-semibold text-gray-900">Framework.</strong> Bersama kami mempelajari cara menggunakan library React Js serta tools yang ada didalamnya.
+                    <strong className="font-semibold text-gray-900">Library JS.</strong> Bersama kami mempelajari cara menggunakan library React Js serta tools yang ada didalamnya.
                   </span>
                 </li>
               </ul>
@@ -252,7 +252,7 @@ function SynteticDev() {
                 <h1 class="text-xl font-medium text-gray-700 capitalize ">Cara melakukan Slicing Pada Website</h1>
 
                 <p class="mt-3 text-gray-500">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                  Slicing adalah teknik yang digunakan untuk memisahkan design web menjadi bagian-bagian tertentu, kemudian baru dibuatkan codenya.
                 </p>
               </div>
             </div>
@@ -270,7 +270,7 @@ function SynteticDev() {
                 <h1 class="text-xl font-medium text-gray-700 capitalize ">Membuat Design Bersama Kevin</h1>
 
                 <p class="mt-3 text-gray-500">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                  Pemberian materi yang menarik dan dibungkus dengan pembawaan alami oleh Kak Kevin memudahkan dalam memahami materi.
                 </p>
               </div>
             </div>
@@ -289,7 +289,7 @@ function SynteticDev() {
                 <h1 class="text-xl font-medium text-gray-700 capitalize ">Mengenal Lebih Dekat Tentang Astro Js</h1>
 
                 <p class="mt-3 text-gray-500">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                  Melihat bagaimana salah satu framework js yang sedang panas bekerja dan apa saja keunggulannya.
                 </p>
               </div>
             </div>
@@ -304,10 +304,10 @@ function SynteticDev() {
               </span>
 
               <div class="mt-4 md:mx-4 md:mt-0">
-                <h1 class="text-xl font-medium text-gray-700 capitalize ">Melihat Redesign Dari Page Github</h1>
+                <h1 class="text-xl font-medium text-gray-700 capitalize ">Redesign Dari Page Github</h1>
 
                 <p class="mt-3 text-gray-500">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                  Melihat Bagaimana cara kak Kevin membuat page Github menjadi lebih nyaman untuk digunakan dan dilihat.
                 </p>
               </div>
             </div>

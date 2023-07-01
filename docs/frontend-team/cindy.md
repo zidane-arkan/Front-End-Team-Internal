@@ -2,32 +2,22 @@
 sidebar_position: 2
 ---
 
-# Cindy Putri Az-Zahra
-## 
+# Cindy Putri Az Zahra
 
-![Web Cindy](./img/cindy/web_cindy.png)
+![Web Cin](./img/cindy/webC.png)
 
 
-Website **Portfolio** dan dibuat untuk **Tugas Clean Code**.
+Ini hanyalah website portfolio sederhana tentang saya. Namun lebih **spesial** karena dibuat dengan menggunakan React.js yang ilmunya saya dapatkan dari internal divisi Front-End GDSC Unsri. 
 
-Pengerjaan pada **HTML**!
+### What's the improved?
+- Menerapkan clean code dalam menulis code
+- Menerapkan react.js
 
-```html
-        <section class="home-section" data-sr-id="1" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all 0.2s linear 0s, opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s;">
-            <div class="home_content">
-                <h3 class="home_title">Hi, aku <span class="home_title-color">Cindy</span></h3>
-                <p>Saya Cindy Putri Az Zahra, atau dikenal dengan panggilan Cindy. Seorang mahasiswi pada jurusan Sistem Informasi angkatan 2021 di Universitas Sriwijaya. Disamping itu, saya memiliki ketertarikan pada bidang illustrasi yang saya tekuni di luar sekolah formal.</p>
-                <a href="#doing-section" class="btn">Lihat Selengkapnya</a>
-            </div>
-        </section>
-```
-
-## Apa Selanjutnya?
-
-- Read the [official documentation](https://docusaurus.io/)
-- Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)
-- Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)
-- Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)
-- Add a [search bar](https://docusaurus.io/docs/search)
-- Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)
-- Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)
+### How I build this portfolio?
+- Buka folder dengan vscode.
+- Tuliskan perintah `npm install` untuk memasang package.
+- Pikirkan sketsa web untuk components apa saja yang perlu dibuat. Web ini sendiri terdiri dari komponen navbar, home, resume, features, portfolio, contact, dan footer yang beberapa memiliki component kecil lagi di dalamnya seperti component card.
+- Buat folder components untuk menampung seluruh components.
+- Mulai ngoding dari component yang sederhana terlebih dahulu. Misal mulai dari navbar.
+- Selanjutnya terapkan yang sudah dipelajari misal useState yang akan sering digunakan untuk menambahkan state pada komponen fungsional tertentu. 
+- Jalankan dengan perintah `npm start`.
