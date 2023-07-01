@@ -4,22 +4,26 @@ sidebar_position: 5
 
 # Zildjian Vito Sulaiman
 
-![Locale Dropdown1](./img/vito/localeDropdown.png)
+[![Locale Dropdown1](./img/vito/websitevito-img.png)](http://zildjianvito.me)
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
+### Website Portofolio yang dibuat menggunakan Basic **React** dan **SASS**
 
-Docusaurus has **much more to offer**!
+### Penjelasan Website Tersebut
 
-Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.
+1. Akses Websitenya Melalui Link ini **[zildjianvito.me](http://zildjianvito.me)**.
 
-Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
+2. Kemudian setelah masuk ke websitenya akan langsung disuguhkan dengan Hero Section dan Navigation bar yang mana masing masing list dari navbar ini mengarah ke section yang berbeda pada website tersebut.
 
-## What's next?
+3. Coba perhatikan di tiap bagian Section pada halaman website tersebut pada saat lebar layar Laptop atau diatasnya di pojok kiri bawah terdapat 3 icon yang mana masing masing icon akan menavigasi ke Sosmed saya sendiri.
 
-- Read the [official documentation](https://docusaurus.io/)
-- Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)
-- Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)
-- Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)
-- Add a [search bar](https://docusaurus.io/docs/search)
-- Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)
-- Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)
+4. Pada bagian Kanan setiap section Website tersebut juga terdapat tombol navigasi yang pada saat di hover akan berubah warna menjadi ungu kebiruan dan pada saat diklik akan menavigasi ke section yang berbeda pada Website tersebut tergantung urutan sectionnya.
+
+5. Nah,hal tersebut dapat terjadi dikarenakan pada tiap section di Website tersebut saya bungkus terlebih dahulu menggunakan Higher Order Component yang mana HOC ini memungkinkan Component yang dibungkusnya akan memiliki logic/layout yang sama .
+
+6. dst...
+
+## Tech Stack?
+
+- React
+- Sass
+- Framer Motion
