@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Zildjian Vito Sulaiman
 
-![Locale Dropdown1](./img/localeDropdown.png)
+![Locale Dropdown1](./img/vito/localeDropdown.png)
 
 You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
 

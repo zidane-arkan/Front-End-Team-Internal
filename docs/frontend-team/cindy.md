@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Cindy Putri Az-Zahra
 
-![Locale Dropdown1](./img/localeDropdown.png)
+![Locale Dropdown1](./img/cindy/localeDropdown.png)
 
 You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
 

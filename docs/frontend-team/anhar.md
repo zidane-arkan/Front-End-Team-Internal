@@ -12,7 +12,7 @@ Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage
 
 Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
 
-![Locale Dropdown1](./img/localeDropdown.png)
+![Locale Dropdown1](./img/anhar/localeDropdown.png)
 
 ## What's next?
 
