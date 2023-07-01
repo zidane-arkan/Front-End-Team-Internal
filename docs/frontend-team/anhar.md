@@ -4,6 +4,16 @@ sidebar_position: 1
 
 # Anharul Zikri
 
+```jsx title="src/components/HelloDocusaurus.js"
+function HelloDocusaurus() {
+    return (
+        <h1>Hello, Docusaurus!</h1>
+    )
+}
+```
+
+![Locale Dropdown1](./img/anhar/localeDropdown.png)
+
 You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
 
 Docusaurus has **much more to offer**!
@@ -12,7 +22,6 @@ Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage
 
 Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
 
-![Locale Dropdown1](./img/anhar/localeDropdown.png)
 
 ## What's next?
 
