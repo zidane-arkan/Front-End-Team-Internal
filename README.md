@@ -1,3 +1,9 @@
+# SETELAH DIUBAH
+1. git status
+2. git add .
+3. git commit -m "update {nama-kalian}"
+4. git push
+
 # Website
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
